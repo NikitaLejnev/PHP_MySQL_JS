@@ -1,8 +1,8 @@
-// Assigning a reference to a variable
+// Cloning an object
 <?php
 $object1 = new User();
 $object1->name = "Alice";
-$object2 = $object1;
+$object2 = clone $object1;
 $object2->name = "Amy";
 
 echo "object1 name = " . $object1->name . "<br>";
