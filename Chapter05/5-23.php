@@ -1,4 +1,4 @@
-Inheriting and extending a class
+// Inheriting and extending a class
 <?php
 $object = new Subscriber;
 $object->name = "Fred";
